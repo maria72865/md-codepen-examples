@@ -1,0 +1,191 @@
+.header-wrapper {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    font-family: 'PT Sans','sans-serif'; 
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    padding: 5px 15px;
+}
+
+/* Left column styles */
+.header-wrapper > .left-column {
+    display: flex;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 350px;
+}
+
+.header-wrapper > .left-column > .banner-image img {
+    width: 300px;
+    height: 120%;
+    filter: invert(100%);
+}
+
+/* Center column styles */
+.header-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+    width: 500px;
+    padding: 10px 5px;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header-wrapper > .center-column > .explore-label {
+    display: flex;
+    font-size: .8em;
+    color: #cea135;
+}
+
+.header-wrapper > .center-column > .explore-wrapper {
+    font-size: .9em;
+    font-weight: 800;
+    font-stretch: condensed;
+    color: white;
+    display: flex;
+    /* justify-items: space-between; */
+    align-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.header-wrapper > .center-column > .explore-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.spark-combo-box {
+    width: 50px;
+    font-size: 1.1em;
+    color: gray;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.header-wrapper > .center-column > .explore-wrapper > .spark-combo-box > select {
+    font-size: .8em;
+    font-weight: bold;
+    color: lightgray;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 0px 10px 0px 10px;
+}
+
+.header-wrapper > .center-column > .explore-wrapper > .spark-combo-box > select:focus {
+    outline: none;
+    background-color: #0ec42c;
+}
+
+/* Right column styles */
+.header-wrapper > .right-column {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.header-wrapper > .right-column > .btn-wrapper {
+    font-family: 'Work Sans', sans-serif;  
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    font-size: .8em;
+    transition: 1.5s;
+}
+
+.header-wrapper > .right-column > .btn-wrapper > .create-combo-box {
+    position: relative;	
+}
+    
+.header-wrapper > .right-column > .btn-wrapper > .create-combo-box > select {
+    color: white;
+    font-size: 1.1em;
+    background-color: #282931a8;
+    border-width: 0px;
+    border-radius: 8px;
+    margin: 10px 25px 0px 125px;
+    height: 80px;
+    width: 175px;
+    padding: 0px 10px 0px 10px;
+} 
+
+.header-wrapper > .right-column > .btn-wrapper > .create-combo-box > select:focus {
+    outline: none;
+    background-color: #0ec42c;
+}
+
+.header-wrapper > .right-column > .btn-wrapper > .btn-search {
+    color: #b3b6c0a8;
+    font-size: 2em;
+    margin: 15px 25px 5px 0px;
+}
+
+.header-wrapper > .right-column > .btn-wrapper > .btn-login {
+    background-color: #282931a8;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 60px;
+    width: 125px;
+    margin: 10px 15px 0px 7px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.header-wrapper > .right-column > .btn-wrapper > .btn-login a {
+    display: flex;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.header-wrapper > .right-column > .btn-wrapper > .btn-sign-up {
+    display: flex;
+    background-color: #282931a8;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 60px;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 25px 0px 0px;
+    padding: 10px 10px;
+}
+ 
+.header-wrapper > .right-column > .btn-wrapper > .btn-sign-up a {
+    display: flex;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+/* select::-ms-expand {
+    display: none;
+} */
+
+.header-wrapper > .right-column > .btn-wrapper > .btn-search:hover {
+    color: #0ec42c;
+    transition: 1s;
+}
+
+.header-wrapper > .right-column > .btn-wrapper > .btn-login:hover {
+    background-color: #0ec42c;
+    transition: 1s;
+}
+
+.header-wrapper > .right-column > .btn-wrapper > .btn-sign-up:hover {
+    background-color: #0ec42c;
+    transition: 1s;
+}
+
+

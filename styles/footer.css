@@ -1,0 +1,34 @@
+.footer > .btn-footer {
+  margin-left: 25px;
+  display: flex;
+}
+
+.footer > .btn-footer > button {
+    background-color: #282931a8;
+    border: 1px solid gray;
+    width: 25%;
+    color: white; 
+    font-size: .9em;
+    padding: 10px 24px; 
+    /* float: left;  */
+  }
+
+  .footer > .btn-footer > button b {
+    font-size: 1.2em;
+  }
+  
+  .footer > .btn-footer > button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  .footer > .btn-footer >:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .footer > .btn-footer > button:hover {
+    color: black;
+    background-color: #0ec42c;
+    transition: .8s;
+  }

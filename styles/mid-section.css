@@ -1,0 +1,96 @@
+.mid-section-wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+    padding: 20px;
+    height: 665px;
+    margin-left: 25px;
+    background-image: radial-gradient(circle at top center, rgb(73, 73, 73), rgba(26, 24, 24, 0.568));
+}
+
+.mid-section-wrapper > .mid-section-left {
+    padding: 60px;
+    color: whitesmoke;
+    font-family: 'Work Sans', sans-serif;  
+}
+
+.mid-section-wrapper > .mid-section-left > .mid-section-left-top {
+    font-size: 1.1em;
+    font-weight: 100;  
+}
+
+.mid-section-wrapper > .mid-section-left > .mid-section-left-top > .image {
+    height: 25px;
+    width: 25px;
+}
+
+.spacer30 {
+    height: 30px;
+    width: 100%;
+}
+
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.mid-section-wrapper > .mid-section-left > .mid-section-left-mid {
+    font-size: 1.3em;
+    font-weight: 100;  
+}
+
+.mid-section-wrapper > .mid-section-left > .mid-section-left-bottom {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.mid-section-wrapper > .mid-section-left > .mid-section-left-bottom > .btn-sign-up-free {
+    display: flex;
+    background-color: #0ec42c;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 90px;
+    width: 375px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 0px 7px;
+    padding: 10px 10px;
+}
+ 
+.mid-section-wrapper > .mid-section-left > .mid-section-left-bottom > .btn-sign-up-free a {
+    /* display: flex; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.mid-section-wrapper > .mid-section-left > .mid-section-left-bottom > .btn-learn {
+    display: flex;
+    font-size: .9em;
+    font-weight: bold;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 90px;
+    width: 275px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 25px 0px 0px;
+    padding: 10px 10px;
+}
+ 
+.mid-section-wrapper > .mid-section-left > .mid-section-left-bottom > .btn-learn a {
+    /* display: flex; */
+    /* font-size: 1.8em; */
+    color: white;
+    text-decoration: none;
+}
+
+.mid-section-wrapper > .mid-section-right > .mid-section-right-top {
+    padding: 25px 0px 0px 0px;
+}
+
+

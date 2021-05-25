@@ -1,0 +1,9 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'PT Sans','sans-serif';
+    font-size: 1.9em;
+    color: white;
+    background-color: black;
+    background-size: cover;
+}
